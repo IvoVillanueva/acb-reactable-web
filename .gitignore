@@ -47,3 +47,22 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# --- Plantilla base de GitHub (.gitignore for R) ---
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# --- Añadidos necesarios para Quarto ---
+_site/
+*.html
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# (Opcional) Archivos locales que quieras excluir
+data/*.rds
+data/*.xlsx
